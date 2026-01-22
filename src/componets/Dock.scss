@@ -26,18 +26,34 @@
 
         transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     }
-    .github{
+
+    .github,
+    .cli {
         background-color: black;
     }
-    .note{
-        background:linear-gradient(to bottom,rgb(255,179,87),rgb(255,153,28));
-       
+
+    .note {
+        background: linear-gradient(to bottom, rgb(255, 179, 87), rgb(255, 153, 28))
     }
-    .vs{
-        background:linear-gradient(to bottom,red,rgb(255,179,87));
+
+    .pdf {
+        background: linear-gradient(to bottom, rgb(255, 65, 78), rgb(255, 25, 40));
     }
-    
-     .icon:hover {
+
+    .calender,
+    .mail {
+        background: linear-gradient(to bottom, rgb(105, 94, 255), rgb(66, 52, 255));
+    }
+
+    .spotify {
+        background: linear-gradient(to bottom, rgb(78, 176, 33), rgb(53, 142, 12));
+    }
+
+    .link {
+        background: linear-gradient(to bottom, rgb(163, 97, 170), rgb(142, 33, 154));
+    }
+
+    .icon:hover {
         transform: scale(1.25) translateY(-20%);
     }
 
