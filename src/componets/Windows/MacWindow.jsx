@@ -1,5 +1,5 @@
 import React from 'react'
-import { Rnd } from 'react-rnd'
+import  {Rnd}  from 'react-rnd'
 import "./window.scss"
 
 const MacWindow = ({ children, width = "40vw", height = "40vh", windowName, setWindowsState }) => {
