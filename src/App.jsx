@@ -4,7 +4,7 @@ import Dock from './componets/Dock'
 import Nav from './componets/Nav'
 import Github from './componets/Windows/Github'
 import Note from './componets/Windows/Note'
-import Resume from './componets/Windows/resume'
+import Resume from './componets/Windows/Resume'
 import Spotify from './componets/Windows/Spotify'
 import Cli from './componets/Windows/Cli'
 
